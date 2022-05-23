@@ -852,6 +852,7 @@
     "@babel/core": "^7.18.0",
     "@babel/eslint-parser": "^7.17.0",
     "@babel/plugin-syntax-jsx": "^7.17.12",
+    "@babel/preset-env": "^7.18.0",
     "@babel/preset-react": "^7.17.12",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
