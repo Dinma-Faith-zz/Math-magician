@@ -13,7 +13,7 @@ function App() {
           {' '}
           and save to reload.
 
-          Chidinma Faith
+          Anyanwu Chidinma Faith
         </p>
         <a
           className="App-link"
