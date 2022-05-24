@@ -74,7 +74,7 @@ To get a local copy up and running follow these simple example steps.
 - Choose folder
 - choose a theme(optional)
 - Enforce HTTPS
-- And then save
+- And then save.
 
 
 ## Authors
