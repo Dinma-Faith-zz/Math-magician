@@ -1,13 +1,16 @@
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Anyanwu Chidinma Faith
-        </p>
-      </header>
-    </div>
-  );
-}
+import React from 'react';
+import Calculator from './components/Calculator';
 
-export default App;
+class RenderCalculator extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {};
+  }
+
+  render() {
+    return (
+      <Calculator />
+    );
+  }
+}
+export default RenderCalculator;
