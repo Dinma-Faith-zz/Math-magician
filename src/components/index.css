@@ -16,6 +16,8 @@ body {
   background-color: #858693;
   width: 50%;
   height: 90px;
+  text-align: end;
+  color: #fff;
 }
 
 .calcDiv {
@@ -45,4 +47,15 @@ body {
 
 .btnoperator {
   background-color: #f5913e;
+}
+
+/* .displayResult {
+  width: 50%;
+  background-color: #858693;
+  color: #fff;
+  text-align: end;
+} */
+
+h1 {
+  padding-right: 15px;
 }
