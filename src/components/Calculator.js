@@ -22,7 +22,6 @@ class Calculator extends React.Component {
 
   render() {
     const { total, next, operation } = this.state;
-    console.log(typeof operation);
     return (
       <div className="mainContainer">
         <DisplayInputs total={total} operation={operation} next={next} />
