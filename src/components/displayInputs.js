@@ -3,22 +3,18 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-class DisplayInputs extends React.Component {
-  render() {
-    return (
-      <div className="displayInputs">
-        <h1>
-          {this.props.total}
-          {' '}
-          {this.props.operation}
-          {' '}
-          {this.props.next}
-          {' '}
-        </h1>
-      </div>
-    );
-  }
-}
+const DisplayInputs = (props) => {
+  <div className="displayInputs">
+    <h1>
+      {props.total}
+      {' '}
+      {props.operation}
+      {' '}
+      {props.next}
+      {' '}
+    </h1>
+  </div>;
+};
 
 DisplayInputs.propTypes = {
   total: PropTypes.number.isRequired,
