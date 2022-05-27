@@ -1,6 +1,7 @@
 import React from 'react';
 import './index.css';
 import calculate from '../logic/calculate';
+import DisplayInputs from './displayInputs';
 
 class Calculator extends React.Component {
   constructor(props) {
@@ -15,32 +16,21 @@ class Calculator extends React.Component {
 
   handleClicks(event) {
     const TargetValue = event.target.value;
-    this.setState((state) => calculate({
-      next: state.next,
-      total: state.total,
-      operation: state.operation,
-    }, TargetValue));
+    const updateState = calculate(this.state, TargetValue);
+    this.setState(updateState);
   }
 
   render() {
     const { total, next, operation } = this.state;
+    console.log(typeof operation);
     return (
       <div className="mainContainer">
-        <div className="displayInputs">
-          <h1>
-            {total}
-            {' '}
-            {operation}
-            {' '}
-            {next}
-            {' '}
-          </h1>
-        </div>
+        <DisplayInputs total={total} operation={operation} next={next} />
         <div className="calcDiv">
           <button onClick={this.handleClicks} type="button" className="btn" value="AC">AC</button>
           <button onClick={this.handleClicks} type="button" className="btn" value="+/-">+/-</button>
           <button onClick={this.handleClicks} type="button" className="btn" value="%">%</button>
-          <button onClick={this.handleClicks} type="button" className="btn btnoperator" value="/">/</button>
+          <button onClick={this.handleClicks} type="button" className="btn btnoperator" value="÷">÷</button>
           <button onClick={this.handleClicks} type="button" className="btn" value="7">7</button>
           <button onClick={this.handleClicks} type="button" className="btn" value="8">8</button>
           <button onClick={this.handleClicks} type="button" className="btn" value="9">9</button>
