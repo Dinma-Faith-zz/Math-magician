@@ -4,6 +4,14 @@
 
 > A single page app consisting of a calculator and a section for random scientific quotes.
 
+#Screenshots of project: Built with screen size of 768px
+
+![home](https://user-images.githubusercontent.com/69027469/171456988-730f326e-816f-4340-9678-558b2d087260.jpeg)
+
+![calc](https://user-images.githubusercontent.com/69027469/171457037-0f2a7562-417f-452a-9f10-54a7c525c78e.jpeg)
+
+![Quotes](https://user-images.githubusercontent.com/69027469/171457130-6ade9ae9-c37a-436b-911e-1862f383bb61.jpeg)
+
 
 ## Built With
 
