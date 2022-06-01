@@ -1,0 +1,26 @@
+.nav {
+  display: flex;
+  padding-inline: 5%;
+  justify-content: space-between;
+  margin: 3% 0;
+  padding-bottom: 3%;
+  border-bottom: 2px solid orangered;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: flex-end;
+  gap: 5%;
+}
+
+.nav-links a {
+  font-size: 25px;
+  padding: 1%;
+  text-decoration: none;
+  color: #fff;
+}
+
+.nav-links a:hover {
+  cursor: pointer;
+  color: orangered;
+}
