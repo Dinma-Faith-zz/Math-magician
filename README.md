@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link]([https://livedemo.com](https://the-awesome-dinma-faith-site.netlify.app/calculator))
+[Live Demo Link](https://the-awesome-dinma-faith-site.netlify.app/calculator)
 
 
 ## Getting Started
