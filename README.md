@@ -21,7 +21,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://the-awesome-dinma-faith-site.netlify.app/calculator)
+[Live Demo Link](https://the-awesome-dinma-faith-site.netlify.app)
 
 
 ## Getting Started
@@ -60,8 +60,7 @@ To get a local copy up and running follow these simple example steps.
 
 ### Create React App
 
-- npx create-react-app my-app
-- cd my-app
+- npx create-react-app
 - npm start
 
 ### Usage
@@ -73,17 +72,6 @@ To get a local copy up and running follow these simple example steps.
 - **npx hint .** : To test html codes
 - **npx stylelint "**/\*.{css,scss}"\*\* : To test css code
 - **npx eslint .** : To test Eslint Report
-
-### Deployment
-
-- Go to settings
-- Click on pages
-- Choose your source
-- Choose folder
-- choose a theme(optional)
-- Enforce HTTPS
-- And then save.
-
 
 ## Authors
 
@@ -108,10 +96,6 @@ Give a ⭐️ if you like this project!
 - Hat tip to anyone whose code was used
 - Inspiration
 - etc
-
-The design has been inspired by:
-
-  [Microverse](https://www.microverse.org)
 
 ## 📝 License
 
