@@ -2,7 +2,7 @@
 
 # Math magicians App
 
-> A single page app consisting of a calculator and a section for random scientific quotes.
+> A calculator app consisting of a home, calculator and a section for random scientific quotes.
 
 #Screenshots of project: Built with screen size of 768px
 
